@@ -1,0 +1,10 @@
+== and === difference => == compares only content & === compares content as well type 
+IIFE design in javascript
+
+Sort using java8 => list.stream().sorted().collect(Collectors.toList());
+Create your own Immutable class
+Remove elememts from the list
+
+Singleton vs Prototype  
+Map vs FlatMap
+
