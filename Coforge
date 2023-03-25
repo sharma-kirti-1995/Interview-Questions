@@ -1,0 +1,18 @@
+Program to find duplicates in an array => Optimize it without using new variable.
+
+Java
+Java 8 feautures
+Functional Interface? If a class implements two Functional Interfaces
+Find frequency of Strings in Java 8
+Find odd numbers from a 2D array using Java 8
+
+Springboot
+How can we exclude the underlying implementation of the jar, => exclude attribute.
+How things can be run before application startup in Springboot.
+How EnableAutoConfiguration works in Springboot?
+Spring profilers? => How it works internally?
+How to use sql/oracle, both the DBs in our application
+
+Challenges in microservices
+Saga pattern -> Kafka
+How order of events can be maintained in Kafka.
