@@ -16,3 +16,7 @@ How to use sql/oracle, both the DBs in our application
 Challenges in microservices
 Saga pattern -> Kafka
 How order of events can be maintained in Kafka.
+
+
+-----
+create Custom annotations in Springboot
