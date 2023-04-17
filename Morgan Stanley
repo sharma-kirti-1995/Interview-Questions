@@ -1,0 +1,60 @@
+What datastructure will be required to design a system where multiple unique objects of students are 
+required to be stored and the outcoming result will be sorted as per roll number?
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       
+        List<Student> list = new ArrayList<Student>();
+        Student s1 = new Student(1,"Kirti");
+        Student s2 = new Student(1,"Kirti");
+        list.add(s1); 
+        list.add(s2);
+        Set<Student> set = new HashSet<Student>();
+        set.add(s1);
+        
+        set.add(s2);
+       
+        
+        System.out.println(set.size());
+    }
+}
+// class SortByRollNoComparator implements Comparator {
+    
+//     public int compare(Object o1, Object o2) {
+//         Student s1 = (Student)o1;
+//         Student s2 = (Student)o2;
+//         return s1.getRollNo() - s2.getRollNo();
+//     }
+// }
+class Student{
+    int rollNo;
+    String name;
+    
+    Student(int rollNo, String name){
+        this.rollNo = rollNo;
+        this.name = name;
+    }
+    
+    public int getRollNo() { 
+        return rollNo;
+    }
+    
+  @Override
+    public int hashCode()
+    {        
+        return this.rollNo ;
+    }
+    
+    public boolean equals(Object obj) {
+        
+        Student stu = (Student) obj;        
+         
+        return (stu.name.equals(this.name)  && stu.rollNo == this.rollNo);
+        
+    }
+    
+}
